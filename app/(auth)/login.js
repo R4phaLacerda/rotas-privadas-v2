@@ -29,6 +29,11 @@ export default function LoginScreen() {
         }
     };
 
+    const obj = {
+        key1: "value1",
+        key2: "value2"
+    };
+
     return (
         <KeyboardAvoidingView    
             style={styles.container}
@@ -170,6 +175,6 @@ const styles = StyleSheet.create({
         color: "#888",
         fontSize: 14,
         paddingHorizontal: 20,
-    };
+    },
 });
 
